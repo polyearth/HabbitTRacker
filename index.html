@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Home Screen -->
+  <div class="home-screen" id="homeScreen">
+    <h1>Welcome to Habit Tracker</h1>
+    <p>Build better habits</p>
+    <button onclick="startTracking()">Start Tracking Habits</button>
+  </div>
+
+  <!-- Habit Tracker Screen -->
+  <div class="container" id="trackerScreen" style="display: none;">
+    <h1>Habit Tracker</h1>
+    <div class="habit-form">
+      <input type="text" id="habitInput" placeholder="Enter a new habit...">
+      <button onclick="addHabit()">Add Habit</button>
+    </div>
+    <table id="habitTable" class="habit-table">
+      <thead>
+        <tr>
+          <th>Habit</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+          <th>Progress</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody id="habitList">
+        <!-- Habiti rādīsies šeit-->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

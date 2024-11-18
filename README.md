@@ -1,1 +1,1 @@
-# HabbitTRacker
+Šajā habitt trakerā ir iespēja pievienot savu ieradumu, atzīmēt ailīti kā pabeigts, ir iespēja noņemt ieradumu. Arī atzīmējot ieradumu kā pabeigtu sānā tiek parādīti procenti cik jau ir izdarīts.
